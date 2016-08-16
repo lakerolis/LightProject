@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @rule.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @rule.description %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @rule.state %>
+</p>
+
+<p>
+  <strong>Conditiontype:</strong>
+  <%= @rule.conditionType %>
+</p>
+
+<p>
+  <strong>Sensor:</strong>
+  <%= @rule.sensor %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @rule.condition %>
+</p>
+
+<p>
+  <strong>Action:</strong>
+  <%= @rule.action %>
+</p>
+
+<%= link_to 'Edit', edit_rule_path(@rule) %> |
+<%= link_to 'Back', rules_path %>
